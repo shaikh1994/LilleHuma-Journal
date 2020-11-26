@@ -1,0 +1,13 @@
+
+<%- include("partials/header") -%>
+
+
+<h1><%= bloo.title %></h1>
+<p> <%= bloo.body %></p>
+
+<form class="" action="/delete" method="post">
+  <button  class="btn btn-danger" type="submit" name="del" value=<%= bloo._id %>>Delete</button>
+
+</form>
+
+<%- include("partials/footer") -%>

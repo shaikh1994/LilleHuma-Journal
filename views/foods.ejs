@@ -1,0 +1,68 @@
+<%- include("partials/headerFood") -%>
+
+<section id="main">
+
+  <!-- Thumbnails -->
+  <section class="thumbnails">
+
+    <!-- ROW-1 -->
+    <div>
+      <% for (var i = 1; i < 12; i++) { %>
+      <a href="images/foods/<%=i%>.jpg">
+        <img src="images/foods/<%=i%>.jpg" alt="" />
+      </a>
+      <% } %>
+    </div>
+
+    <!-- ROW-2 -->
+    <div>
+      <% for (var i = 12; i < 21; i++) { %>
+      <a href="images/foods/<%=i%>.jpg">
+        <img src="images/foods/<%=i%>.jpg" alt="" />
+      </a>
+      <% } %>
+    </div>
+
+    <!-- ROW-3 -->
+    <div>
+      <% for (var i = 21; i < 31; i++) { %>
+      <a href="images/foods/<%=i%>.jpg">
+        <img src="images/foods/<%=i%>.jpg" alt="" />
+      </a>
+      <% } %>
+    </div>
+
+
+    <!-- ROW-4 -->
+    <div>
+      <% for (var i = 31; i < 40; i++) { %>
+      <a href="images/foods/<%=i%>.jpg">
+        <img src="images/foods/<%=i%>.jpg" alt="" />
+      </a>
+      <% } %>
+    </div>
+
+
+
+  </section>
+
+</section>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <a href="/foods"><button type="button" class=" back-button btn btn-outline-light btn-lg">Top</button></a>
+    </div>
+    <div class="col">
+        <a href="/"><button type="button" class=" back-button btn btn-outline-light btn-lg">Home</button></a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<%- include("partials/footerFood") -%>
